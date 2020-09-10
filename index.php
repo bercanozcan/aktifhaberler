@@ -15,7 +15,14 @@
                 <div class="col-md-6">
                     <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-150 position-relative">
                         <div class="col p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-primary">World</strong>
+                            <strong class="d-inline-block mb-2 text-primary"><?php
+
+                            $categories = get_the_category();
+                            if ( ! empty( $categories ) ) {
+                                echo '<a href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
+                            }
+
+                            ?></strong>
                             <h3 class="mb-0 haber-baslik"><?php the_title(); ?></h3>
                         </div>
                         <div class="col-auto d-none d-lg-block">
