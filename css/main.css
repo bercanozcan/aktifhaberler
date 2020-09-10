@@ -161,5 +161,5 @@ ul#menu-haber-kategori {
     height: 30px !important;
     line-height: 30px;
     font-size:14px;
-
+    cursor: pointer;
 }
