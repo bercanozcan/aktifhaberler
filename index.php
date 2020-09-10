@@ -3,9 +3,14 @@
 <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
     <div class="col-md-9 px-0">
         <div class="manset-haberler slider slider-single">
-            <?php for($i=1; $i<11; $i++){ ?>
+            <?php for($i=1; $i<6; $i++){ ?>
             <div>
                 <img class="manset-image" src="https://aktifhaberler.com/wp-content/uploads/2020/08/brunos_team.jpg" />
+            </div>
+            <?php } ?>
+            <?php for($i=6; $i<10; $i++){ ?>
+            <div>
+                <img class="manset-image" src="https://api.jquery.com/jquery-wp-content/themes/jquery/content/books/jquery-in-action.jpg" />
             </div>
             <?php } ?>
         </div>
