@@ -11,6 +11,7 @@
             <?php for($i=8; $i<16; $i++){ ?>
             <div>
                 <img class="manset-image" src="https://api.jquery.com/jquery-wp-content/themes/jquery/content/books/jquery-in-action.jpg" />
+
             </div>
             <?php } ?>
         </div>
