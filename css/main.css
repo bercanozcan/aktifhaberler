@@ -122,6 +122,9 @@ h6 {
     margin-bottom: 0;
 }
 
+.h-md-150 {
+    height:150px !important;
+}
 
 ul#menu-haber-kategori {
     list-style: none;
@@ -132,7 +135,7 @@ ul#menu-haber-kategori {
 
 .haber-image {
     width: 200px;
-    height: 250px;
+    height: 150px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
