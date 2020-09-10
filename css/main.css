@@ -141,6 +141,10 @@ ul#menu-haber-kategori {
     background-size: cover;
 }
 
+.jumbotron {
+    padding: 0;
+}
+
 
 .manset-image {
     width: 640px;
