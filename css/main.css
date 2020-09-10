@@ -144,3 +144,7 @@ ul#menu-haber-kategori {
 .haber-baslik {
     font-size:18px;
 }
+
+d.overflow-hidden.flex-md-row.mb-4.shadow-sm.h-md-150.position-relative {
+    height: 150px;
+}
