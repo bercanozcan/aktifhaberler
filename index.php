@@ -32,7 +32,7 @@
             <?php endwhile; ?>
         <?php else : ?>
             <div class="col-md-6">
-                <p><?php echo __('Mevcut haber yok.', 'ah'); ?></p>
+                <p><?php echo __('Haber içeriği bulunamadı.', 'ah'); ?></p>
             </div>
         <?php endif; ?>
     </div>
