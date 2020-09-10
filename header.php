@@ -48,9 +48,6 @@
                             <path d="M21 21l-5.2-5.2" />
                         </svg>
                     </a>
-                    <a class="btn btn-sm btn-link" href="#">Instagram</a>
-                    <a class="btn btn-sm btn-link" href="#">Facebook</a>
-                    <a class="btn btn-sm btn-link" href="#">Youtube</a>
                 </div>
             </div>
         </header>
