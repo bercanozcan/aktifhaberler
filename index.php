@@ -34,6 +34,101 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6">
+                    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-150 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <?php
+                                $categories = get_the_category();
+                                if(!empty($categories)){
+                                    echo '<a class="d-inline-block mb-2 text-primary" href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
+                                }
+                            ?>
+                            <h3 class="mb-0 haber-baslik"><?php the_title(); ?></h3>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <?php if (has_post_thumbnail()) : ?>
+                                <?php $attachment_image = wp_get_attachment_url( get_post_thumbnail_id() ); ?>
+                                <div class="haber-image" style="background-image:url(<?php echo $attachment_image;?>);">
+                            <?php endif; ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-150 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <?php
+                                $categories = get_the_category();
+                                if(!empty($categories)){
+                                    echo '<a class="d-inline-block mb-2 text-primary" href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
+                                }
+                            ?>
+                            <h3 class="mb-0 haber-baslik"><?php the_title(); ?></h3>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <?php if (has_post_thumbnail()) : ?>
+                                <?php $attachment_image = wp_get_attachment_url( get_post_thumbnail_id() ); ?>
+                                <div class="haber-image" style="background-image:url(<?php echo $attachment_image;?>);">
+                            <?php endif; ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-150 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <?php
+                                $categories = get_the_category();
+                                if(!empty($categories)){
+                                    echo '<a class="d-inline-block mb-2 text-primary" href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
+                                }
+                            ?>
+                            <h3 class="mb-0 haber-baslik"><?php the_title(); ?></h3>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <?php if (has_post_thumbnail()) : ?>
+                                <?php $attachment_image = wp_get_attachment_url( get_post_thumbnail_id() ); ?>
+                                <div class="haber-image" style="background-image:url(<?php echo $attachment_image;?>);">
+                            <?php endif; ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-150 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <?php
+                                $categories = get_the_category();
+                                if(!empty($categories)){
+                                    echo '<a class="d-inline-block mb-2 text-primary" href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
+                                }
+                            ?>
+                            <h3 class="mb-0 haber-baslik"><?php the_title(); ?></h3>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <?php if (has_post_thumbnail()) : ?>
+                                <?php $attachment_image = wp_get_attachment_url( get_post_thumbnail_id() ); ?>
+                                <div class="haber-image" style="background-image:url(<?php echo $attachment_image;?>);">
+                            <?php endif; ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-150 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <?php
+                                $categories = get_the_category();
+                                if(!empty($categories)){
+                                    echo '<a class="d-inline-block mb-2 text-primary" href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
+                                }
+                            ?>
+                            <h3 class="mb-0 haber-baslik"><?php the_title(); ?></h3>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <?php if (has_post_thumbnail()) : ?>
+                                <?php $attachment_image = wp_get_attachment_url( get_post_thumbnail_id() ); ?>
+                                <div class="haber-image" style="background-image:url(<?php echo $attachment_image;?>);">
+                            <?php endif; ?>
+                        </div>
+                    </div>
+                </div>
             <?php endwhile; ?>
         <?php else : ?>
             <div class="col-md-6">
