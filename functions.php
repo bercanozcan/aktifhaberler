@@ -4,7 +4,7 @@
 
     function ah_theme_support(){
         register_nav_menus([
-            'primary' => __('Haber Kategori Menü')
+            'primary' => __('Haber Kategori Menü', 'ah')
         ]);
     }
 

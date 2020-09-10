@@ -31,7 +31,7 @@
     <?php endwhile; ?>
     <?php else : ?>
     <div class="col-md-6">
-        <p>Mevcut haber yok.</p>
+        <p><?php echo __('Mevcut haber yok.', 'ah'); ?></p>
     </div>
     <?php endif; ?>
 </div>
