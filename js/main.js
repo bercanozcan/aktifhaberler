@@ -17,8 +17,8 @@ $(() => {
             $('.slider-nav .slick-slide.slick-current').addClass('is-active');
         })
         .slick({
-            slidesToShow: 7,
-            slidesToScroll: 7,
+            slidesToShow: 10,
+            slidesToScroll: 10,
             arrows: false,
             dots: false,
             focusOnSelect: false,
