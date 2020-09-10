@@ -35,36 +35,11 @@
             </div>
         </div>
         <div class="slider slider-nav">
+            <?php for($i=1; $i<11, $i++){ ?>
             <div>
-                <h3><span>1</span></h3>
+                <h3><span><?php echo $i;?></span></h3>
             </div>
-            <div>
-                <h3><span>2</span></h3>
-            </div>
-            <div>
-                <h3><span>3</span></h3>
-            </div>
-            <div>
-                <h3><span>4</span></h3>
-            </div>
-            <div>
-                <h3><span>5</span></h3>
-            </div>
-            <div>
-                <h3><span>6</span></h3>
-            </div>
-            <div>
-                <h3><span>7</span></h3>
-            </div>
-            <div>
-                <h3><span>8</span></h3>
-            </div>
-            <div>
-                <h3><span>9</span></h3>
-            </div>
-            <div>
-                <h3><span>10</span></h3>
-            </div>
+            <?php } ?>
         </div>
     </div>
     <div class="col-md-3 px-0">
