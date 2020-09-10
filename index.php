@@ -5,7 +5,7 @@
         <div class="manset-haberler slider slider-single">
             <?php for($i=1; $i<11; $i++){ ?>
             <div>
-                <img class="manset-image" style="background-image:url();" />
+                <img class="manset-image" style="background-image:url(https://aktifhaberler.com/wp-content/uploads/2020/08/brunos_team.jpg);" />
             </div>
             <?php } ?>
         </div>

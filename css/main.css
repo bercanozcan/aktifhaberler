@@ -141,6 +141,13 @@ ul#menu-haber-kategori {
     background-size: cover;
 }
 
+
+.manset-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .haber-baslik {
     font-size:18px;
 }
