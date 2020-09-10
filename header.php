@@ -35,7 +35,7 @@
         <header class="blog-header py-3">
             <div class="row flex-nowrap justify-content-between align-items-center">
                 <div class="col-4 pt-1">
-                    <a class="text-muted" href="#">Subscribe</a>
+                    <a class="text-muted" href="#">Abone Ol</a>
                 </div>
                 <div class="col-4 text-center">
                     <a class="blog-header-logo text-dark" href="#">Aktif Haberler</a>
@@ -48,7 +48,9 @@
                             <path d="M21 21l-5.2-5.2" />
                         </svg>
                     </a>
-                    <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+                    <a class="btn btn-sm btn-outline-secondary" href="#">Instagram</a>
+                    <a class="btn btn-sm btn-outline-secondary" href="#">Facebook</a>
+                    <a class="btn btn-sm btn-outline-secondary" href="#">Youtube</a>
                 </div>
             </div>
         </header>
@@ -56,7 +58,6 @@
         <div class="nav-scroller py-1 mb-2">
             <nav class="nav d-flex justify-content-between">
                 <?php
-
                 wp_nav_menu([
                     'menu'            => 'primary',
                     'theme_location'  => 'primary',
@@ -64,8 +65,6 @@
                     'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
                     'walker'          => new WP_Bootstrap_Navwalker()
                 ]);
-
                 ?>
-
             </nav>
         </div>
