@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <title>Aktif Haberler</title>
     <link rel="canonical" href="#">
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_url');?>/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
         .bd-placeholder-img {
@@ -29,6 +29,7 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="<?php bloginfo('template_url');?>/css/main.css" rel="stylesheet">
+
     <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
 </head>
 
