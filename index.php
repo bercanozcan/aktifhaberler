@@ -22,9 +22,7 @@
                         </div>
                         <div class="col-auto d-none d-lg-block">
                             <?php if (has_post_thumbnail()) : ?>
-                                <div class="post-thumb">
-                                    <?php the_post_thumbnail(); ?>
-                                </div>
+                                <?php the_post_thumbnail(); ?>
                             <?php endif; ?>
                         </div>
                     </div>
