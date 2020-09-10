@@ -5,7 +5,7 @@
         <div class="manset-haberler slider slider-single">
             <?php for($i=1; $i<11; $i++){ ?>
             <div>
-                <div class="manset-image" style="background-image:url();">
+                <img class="manset-image" style="background-image:url();" />
             </div>
             <?php } ?>
         </div>
