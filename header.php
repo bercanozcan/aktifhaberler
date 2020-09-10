@@ -57,7 +57,7 @@
             <nav class="nav d-flex justify-content-between">
                 <?php
 
-                wp_nav_menu(array(
+                wp_nav_menu([
                     'menu'            => 'primary',
                     'theme_location'  => 'primary',
                     'depth'           => 2,
@@ -67,7 +67,7 @@
                     'menu_class'      => 'nav navbar-nav ml-auto',
                     'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
                     'walker'          => new WP_Bootstrap_Navwalker()
-                ));
+                ]);
 
                 ?>
 

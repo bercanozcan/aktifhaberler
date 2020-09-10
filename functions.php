@@ -8,6 +8,6 @@
         ] );
     }
 
-    add_action( 'after_theme_setup', 'ah_theme_support' )
+    add_action( 'after_theme_setup', 'ah_theme_support' );
 
 ?>

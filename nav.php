@@ -7,20 +7,6 @@ if (!defined('ABSPATH')) {
     die('Direct access is forbidden.');
 }
 
-/**
- * Class Name: WP_Bootstrap_Navwalker
- * Plugin Name: WP Bootstrap4 Navwalker
- * Plugin URI:  https://github.com/jprieton/wp-bootstrap4-navwalker
- * Description: A custom WordPress nav walker class to implement the Bootstrap 4.x navigation style in a custom theme using the WordPress built in menu manager.
- * Author: Javier Prieto
- * Version: 1.1.2
- * Author URI: https://github.com/jprieton/
- * GitHub Plugin URI: https://github.com/jprieton/wp-bootstrap4-navwalker
- * GitHub Branch: master
- * License: GPL-3.0+
- * License URI: https://www.gnu.org/licenses/gpl-3.0.txt
- */
-/* Check if Class Exists. */
 if (!class_exists('WP_Bootstrap_Navwalker')) {
 
     /**
