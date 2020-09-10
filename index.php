@@ -21,6 +21,50 @@
             <div>
                 <h3>6</h3>
             </div>
+            <div>
+                <h3>7</h3>
+            </div>
+            <div>
+                <h3>8</h3>
+            </div>
+            <div>
+                <h3>9</h3>
+            </div>
+            <div>
+                <h3>10</h3>
+            </div>
+        </div>
+        <div class="slider slider-nav">
+            <div>
+                <h3><span>1</span></h3>
+            </div>
+            <div>
+                <h3><span>2</span></h3>
+            </div>
+            <div>
+                <h3><span>3</span></h3>
+            </div>
+            <div>
+                <h3><span>4</span></h3>
+            </div>
+            <div>
+                <h3><span>5</span></h3>
+            </div>
+            <div>
+                <h3><span>6</span></h3>
+            </div>
+            <div>
+                <h3><span>7</span></h3>
+            </div>
+            <div>
+                <h3><span>8</span></h3>
+            </div>
+            <div>
+                <h3><span>9</span></h3>
+            </div>
+            <div>
+                <h3><span>10</span></h3>
+            </div>
         </div>
     </div>
     <div class="col-md-3 px-0">
