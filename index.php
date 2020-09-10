@@ -9,8 +9,8 @@
 </div>
 
 <div class="row mb-2">
-    <?php if(have_posts()) : ?>
-    <?php while(have_posts()) : the_post();?>
+    <?php if(get_posts()) : ?>
+    <?php foreach(get_posts() as $key=>$value) :?>
     <div class="col-md-6">
         <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
             <div class="col p-4 d-flex flex-column position-static">
@@ -28,7 +28,7 @@
             </div>
         </div>
     </div>
-    <?php endwhile; ?>
+    <?php endforeach; ?>
     <?php else : ?>
     <div class="col-md-6">
         <p><?php echo __('Mevcut haber yok.', 'ah'); ?></p>
