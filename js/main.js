@@ -8,7 +8,7 @@ $(() => {
         adaptiveHeight: true,
         infinite: false,
         useTransform: true,
-        speed: 1,
+        speed: 900,
         cssEase: 'cubic-bezier(0.77, 0, 0.18, 1)',
     });
 
