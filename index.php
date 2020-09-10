@@ -22,7 +22,12 @@
                         </div>
                         <div class="col-auto d-none d-lg-block">
                             <?php if (has_post_thumbnail()) : ?>
-                                <?php the_post_thumbnail(['200','250']); ?>
+                                <?php
+
+                                    $featured_img_url = get_the_post_thumbnail_url('full');
+
+                                ?>
+                                <div style="background-image:url(<?php echo $featured_img_url;?>); width:200px; height:250px;">
                             <?php endif; ?>
                         </div>
                     </div>
