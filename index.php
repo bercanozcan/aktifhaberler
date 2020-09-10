@@ -9,31 +9,33 @@
 </div>
 
 <main role="main" class="container">
-    <?php if (have_posts()) : ?>
-        <?php while (have_posts()) : the_post(); ?>
-            <div class="col-md-4">
-                <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary">World</strong>
-                        <h3 class="mb-0"><?php the_title(); ?></h3>
-                        <div class="mb-1 text-muted"><?php the_time("j F Y H:i"); ?></div>
-                        <p class="card-text mb-auto"><?php echo 2; ?></p>
-                    </div>
-                    <div class="col-auto d-none d-lg-block">
-                        <?php if (has_post_thumbnail()) : ?>
-                            <div class="post-thumb">
-                                <?php the_post_thumbnail(); ?>
-                            </div>
-                        <?php endif; ?>
+    <div class="row mb-2">
+        <?php if (have_posts()) : ?>
+            <?php while (have_posts()) : the_post(); ?>
+                <div class="col-md-4">
+                    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-primary">World</strong>
+                            <h3 class="mb-0"><?php the_title(); ?></h3>
+                            <div class="mb-1 text-muted"><?php the_time("j F Y H:i"); ?></div>
+                            <p class="card-text mb-auto"><?php echo 2; ?></p>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <?php if (has_post_thumbnail()) : ?>
+                                <div class="post-thumb">
+                                    <?php the_post_thumbnail(); ?>
+                                </div>
+                            <?php endif; ?>
+                        </div>
                     </div>
                 </div>
+            <?php endwhile; ?>
+        <?php else : ?>
+            <div class="col-md-6">
+                <p><?php echo __('Mevcut haber yok.', 'ah'); ?></p>
             </div>
-        <?php endwhile; ?>
-    <?php else : ?>
-        <div class="col-md-6">
-            <p><?php echo __('Mevcut haber yok.', 'ah'); ?></p>
-        </div>
-    <?php endif; ?>
+        <?php endif; ?>
+    </div>
 </main><!-- /.container -->
 
 <?php get_footer(); ?>
