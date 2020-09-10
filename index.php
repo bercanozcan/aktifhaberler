@@ -24,10 +24,10 @@
                             <?php if (has_post_thumbnail()) : ?>
                                 <?php
 
-                                    $featured_img_url = get_the_post_thumbnail_url('full');
+                                    $attachment_image = wp_get_attachment_url( get_post_thumbnail_id() );
 
                                 ?>
-                                <div style="background-image:url(<?php echo $featured_img_url;?>); width:200px; height:250px;">
+                                <div style="background-image:url(<?php echo $attachment_image;?>); width:200px; height:250px;">
                             <?php endif; ?>
                         </div>
                     </div>
