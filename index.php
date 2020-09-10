@@ -35,7 +35,7 @@
             </div>
         </div>
         <div class="slider slider-nav">
-            <?php for($i=1; $i<11, $i++){ ?>
+            <?php for($i=1; $i<11; $i++){ ?>
             <div>
                 <h3><span><?php echo $i;?></span></h3>
             </div>
