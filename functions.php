@@ -10,10 +10,4 @@
 
     add_action( 'init', 'ah_theme_support' );
 
-    function set_excerpt_length(){
-        return 20;
-    }
-
-    add_filter( 'excerpt_length', 'set_excerpt_length' );
-
 ?>

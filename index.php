@@ -11,13 +11,6 @@
 <div class="row mb-2">
     <?php if(get_posts()) : ?>
     <?php foreach(get_posts() as $key=>$value) :?>
-        <?php
-
-            echo '<pre>';
-            print_r($value);
-            echo '</pre>';
-
-        ?>
     <div class="col-md-6">
         <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
             <div class="col p-4 d-flex flex-column position-static">
