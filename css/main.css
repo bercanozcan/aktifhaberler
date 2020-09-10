@@ -129,3 +129,11 @@ ul#menu-haber-kategori {
     padding: 0;
     display: flex;
 }
+
+.haber-image {
+    width: 200px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

@@ -22,12 +22,8 @@
                         </div>
                         <div class="col-auto d-none d-lg-block">
                             <?php if (has_post_thumbnail()) : ?>
-                                <?php
-
-                                    $attachment_image = wp_get_attachment_url( get_post_thumbnail_id() );
-
-                                ?>
-                                <div style="background-image:url(<?php echo $attachment_image;?>); width:200px; height:250px;">
+                                <?php $attachment_image = wp_get_attachment_url( get_post_thumbnail_id() ); ?>
+                                <div class="haber-image" style="background-image:url(<?php echo $attachment_image;?>);">
                             <?php endif; ?>
                         </div>
                     </div>
