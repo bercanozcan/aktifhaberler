@@ -8,7 +8,7 @@ $(() => {
         adaptiveHeight: true,
         infinite: false,
         useTransform: true,
-        speed: 400,
+        speed: 100,
         cssEase: 'cubic-bezier(0.77, 0, 0.18, 1)',
     });
 
@@ -51,7 +51,7 @@ $(() => {
         $(currrentNavSlideElem).addClass('is-active');
     });
 
-    $('.slider-nav').on('mouseover', '.slick-slide', function (event) {
+    $('.slider-nav').on('click', '.slick-slide', function (event) {
         event.preventDefault();
         var goToSingleSlide = $(this).data('slick-index');
 
