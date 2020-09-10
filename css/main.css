@@ -144,7 +144,7 @@ ul#menu-haber-kategori {
 .jumbotron {
     padding: 0;
     background-color:#e2e2e2;
-
+}
 
 .manset-image {
     width: 640px;
@@ -154,7 +154,6 @@ ul#menu-haber-kategori {
 .haber-baslik {
     font-size:18px;
 }
-
 
 .slider.slider-nav.slick-initialized.slick-slider .slick-list .slick-track .slick-slide {
     text-align: center;
