@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="jumbotron  text-white rounded bg-dark">
+<div class="jumbotron  text-white rounded bg-light">
     <div class="col-md-9 px-0">
         <div class="manset-haberler slider slider-single">
             <?php for($i=1; $i<6; $i++){ ?>
