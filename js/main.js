@@ -19,6 +19,7 @@ $(() => {
         .slick({
             slidesToShow: 7,
             slidesToScroll: 7,
+            arrows: false,
             dots: false,
             focusOnSelect: false,
             infinite: false,
