@@ -2,7 +2,7 @@
 
 <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
     <div class="col-md-9 px-0">
-        <div class="manset-haberler slider slider-for">
+        <div class="manset-haberler slider slider-single">
             <div>
                 <h3>1</h3>
             </div>
