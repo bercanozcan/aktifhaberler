@@ -50,7 +50,7 @@ $(() => {
         $(currrentNavSlideElem).addClass('is-active');
     });
 
-    $('.slider-nav').on('click', '.slick-slide', function (event) {
+    $('.slider-nav').on('onhover', '.slick-slide', function (event) {
         event.preventDefault();
         var goToSingleSlide = $(this).data('slick-index');
 
