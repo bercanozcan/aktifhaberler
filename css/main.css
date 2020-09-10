@@ -160,5 +160,8 @@ d.overflow-hidden.flex-md-row.mb-4.shadow-sm.h-md-150.position-relative {
 }
 
 .slider.slider-nav.slick-initialized.slick-slider .slick-list .slick-track .slick-slide {
-    text-align:center;
+    text-align: center;
+    width: 30px !important;
+    height: 30px !important;
+    line-height: 30px;
 }
