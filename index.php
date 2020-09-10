@@ -3,19 +3,19 @@
 <div class="jumbotron  text-white rounded bg-light">
     <div class="col-md-9 px-0">
         <div class="manset-haberler slider slider-single">
-            <?php for($i=1; $i<6; $i++){ ?>
+            <?php for($i=1; $i<8; $i++){ ?>
             <div>
                 <img class="manset-image" src="https://aktifhaberler.com/wp-content/uploads/2020/08/brunos_team.jpg" />
             </div>
             <?php } ?>
-            <?php for($i=6; $i<10; $i++){ ?>
+            <?php for($i=8; $i<16; $i++){ ?>
             <div>
                 <img class="manset-image" src="https://api.jquery.com/jquery-wp-content/themes/jquery/content/books/jquery-in-action.jpg" />
             </div>
             <?php } ?>
         </div>
         <div class="slider slider-nav">
-            <?php for($i=1; $i<11; $i++){ ?>
+            <?php for($i=1; $i<16; $i++){ ?>
             <div>
                 <span class="ah-nav"><span><?php echo $i;?></span></span>
             </div>
