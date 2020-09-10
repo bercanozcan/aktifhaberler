@@ -57,14 +57,17 @@
             <nav class="nav d-flex justify-content-between">
                 <?php
 
-                wp_nav_menu(
-                    'menu_class'     => 'main-nav navbar-nav ml-auto',
-                    'container' => false,
-                    'theme_location' => 'header-menu',
-                        //'items_wrap'      => '<ul>%3$s</ul>',
-                        'depth' => 4,
-                    //
-                    );
+                wp_nav_menu([
+                    'menu'            => 'primary',
+                    'theme_location'  => 'primary',
+                    'depth'           => 2,
+                    'container'       => 'div',
+                    'container_id'    => 'navbarNavDropdown',
+                    'container_class' => 'collapse navbar-collapse',
+                    'menu_class'      => 'nav navbar-nav ml-auto',
+                    'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                    'walker'          => new WP_Bootstrap_Navwalker()
+                ]);
 
                 ?>
 
