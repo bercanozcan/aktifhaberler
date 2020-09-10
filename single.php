@@ -8,6 +8,9 @@
                 <h1 class="blog-post-title"><?php the_title(); ?></h1>
                 <p class="blog-post-meta"><?php the_time("j F Y H:i");?></p>
                 <?php the_content(); ?>
+                <hr>
+                <?php comments_template(); ?>
+
             </div><!-- /.blog-post -->
 
 
