@@ -22,7 +22,7 @@
                         </div>
                         <div class="col-auto d-none d-lg-block">
                             <?php if (has_post_thumbnail()) : ?>
-                                <?php the_post_thumbnail(); ?>
+                                <?php the_post_thumbnail(['200','250']); ?>
                             <?php endif; ?>
                         </div>
                     </div>
