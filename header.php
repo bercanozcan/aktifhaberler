@@ -1,13 +1,13 @@
 <!doctype html>
-<html <?php language_attributes();?>>
+<html <?php language_attributes(); ?>>
 
 <head>
-    <meta charset="<?php bloginfo( 'charset' );?>">
+    <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <title>Aktif Haberler</title>
     <link rel="canonical" href="#">
-    <link href="<?php bloginfo('template_url');?>/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -25,9 +25,9 @@
         }
     </style>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-    <link href="<?php bloginfo('template_url');?>/css/main.css" rel="stylesheet">
-    <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
-    <?php wp_head();?>
+    <link href="<?php bloginfo('template_url'); ?>/css/main.css" rel="stylesheet">
+    <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
+    <?php wp_head(); ?>
 </head>
 
 <body>
@@ -55,17 +55,21 @@
 
         <div class="nav-scroller py-1 mb-2">
             <nav class="nav d-flex justify-content-between">
-                <a class="p-2 text-muted" href="#">World</a>
-                <a class="p-2 text-muted" href="#">U.S.</a>
-                <a class="p-2 text-muted" href="#">Technology</a>
-                <a class="p-2 text-muted" href="#">Design</a>
-                <a class="p-2 text-muted" href="#">Culture</a>
-                <a class="p-2 text-muted" href="#">Business</a>
-                <a class="p-2 text-muted" href="#">Politics</a>
-                <a class="p-2 text-muted" href="#">Opinion</a>
-                <a class="p-2 text-muted" href="#">Science</a>
-                <a class="p-2 text-muted" href="#">Health</a>
-                <a class="p-2 text-muted" href="#">Style</a>
-                <a class="p-2 text-muted" href="#">Travel</a>
+                <?php
+
+                wp_nav_menu(array(
+                    'menu'            => 'primary',
+                    'theme_location'  => 'primary',
+                    'depth'           => 2,
+                    'container'       => 'div',
+                    'container_id'    => 'navbarNavDropdown',
+                    'container_class' => 'collapse navbar-collapse',
+                    'menu_class'      => 'nav navbar-nav ml-auto',
+                    'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                    'walker'          => new WP_Bootstrap_Navwalker()
+                ));
+
+                ?>
+
             </nav>
         </div>
