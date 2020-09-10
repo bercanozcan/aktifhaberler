@@ -3,36 +3,11 @@
 <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
     <div class="col-md-9 px-0">
         <div class="manset-haberler slider slider-single">
+            <?php for($i=1; $i<11; $i++){ ?>
             <div>
-                <h3>1</h3>
+                <div class="manset-image" style="background-image:url();">
             </div>
-            <div>
-                <h3>2</h3>
-            </div>
-            <div>
-                <h3>3</h3>
-            </div>
-            <div>
-                <h3>4</h3>
-            </div>
-            <div>
-                <h3>5</h3>
-            </div>
-            <div>
-                <h3>6</h3>
-            </div>
-            <div>
-                <h3>7</h3>
-            </div>
-            <div>
-                <h3>8</h3>
-            </div>
-            <div>
-                <h3>9</h3>
-            </div>
-            <div>
-                <h3>10</h3>
-            </div>
+            <?php } ?>
         </div>
         <div class="slider slider-nav">
             <?php for($i=1; $i<11; $i++){ ?>
