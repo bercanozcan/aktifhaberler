@@ -4,10 +4,12 @@ $(() => {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
+        fade: false,
         adaptiveHeight: true,
-        speed: 900,
-        fade: true,
-        accessibility: false
+        infinite: false,
+        useTransform: true,
+        speed: 9000,
+        cssEase: 'cubic-bezier(0.77, 0, 0.18, 1)',
     });
 
     $('.slider-nav')
